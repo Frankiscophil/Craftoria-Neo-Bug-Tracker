@@ -22,7 +22,8 @@ If you noticed a bug has been fixed, feel free to move it's line down to the "Fi
 
 - [ ] Creative Mode search item tab returns no results.
 - [ ] Creative Mode search item tab conflicts with JEI search bar. Even if I click on the JEI search bar, characters are typed onto the Search Item tab's search bar.
-- [ ] Mekanizm and Mekanizm Generators tabs have search bars in them as well and those function fine; odd that the main vanilla search bar does not.
+      - Mekanizm and Mekanizm Generators tabs have search bars in them as well and those function fine; odd that the main vanilla search bar does not.
+      - Remember the Creative menu search bar glitch in 0.0.3? The Mekanism tab had a search bar and that worked fine to find Mekanism stuff. In 0.0.5, even that doesn't work anymore. Issue still persists in 0.0.7.
 - [ ] JEI suggested to install Configured to change JEI settings with a GUI. Despite saving my changes in Cheat Mode to turn on "Enable Cheat Mode for Give", leaving and re-entering the GUI shows that change being reverted to default.
 - [ ] So relaunching the game shows the changes. However, JEI still does not give me items. Changing the settings from mouse pickup to sending the selected items to inventory did not give the desired result, or any result for that matter.
 - [ ] Enabling cheating items into the hotbar with shift+num key doesn't work either.
@@ -46,7 +47,13 @@ If you noticed a bug has been fixed, feel free to move it's line down to the "Fi
 - [ ] Hammers from Just Hammers cannot be enchanted - not sure if this is intentional. There is an [open issue](https://github.com/nanite/JustHammers/issues/29) on their tracker from 3 days ago with no response.
 - [ ] Theurgy Ores have a weird emission on them. [Evidence](https://github.com/Kazuhiko-Gushiken/Craftoria-Neo-Bug-Tracker/assets/132615999/e52a972c-872d-42b8-9f5e-a1317056b3f9)
 - [ ] Farming for Blockheads Market does not have a drop table
-
+- [ ] I don't think this is a bug but a funny thing. Powah and Mekanizm power cables can connect and seemingly work fine. Pipez power cables can connect as well, but do not transfer power.
+- [ ] Recipes for Modular Force Field System do not appear in JEI.
+- [ ] Fortron Capacitor block has a toggle for how it distributes power to other MFFS machines that should have descriptions when you hover over it; it currently does not show any description when hovering over it.
+- [ ] Breaking a Force Field Projector block with a pickaxe will not drop it. All the modules inside it will also disappear and not drop. 
+- [ ] Unsure if it's a bug but Disintegration Module is very slow, even with five stacks of Speed Modules in the Force Field Projector.
+- [ ] Sponge Module removes all fluids save for water source blocks with kelp or seagrass in them.
+- [ ] Biometric Identifier was some weird text overlap. Clicking on a toggle will make their description persist on your screen until you select another toggle, at which point the description still persists but changes to the description of what you just
 
 
 # *FIXED BUGS*
